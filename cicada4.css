@@ -1,0 +1,19 @@
+@keyframes rainbow {
+    0% {color: red}
+    17% {color: orange}
+    34% {color: yellow}
+    51% {color: green}
+    68% {color: blue}
+    85% {color: indigo}
+    100% {color: violet}
+}
+
+.rainbow {
+    animation-name: rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    font-family: 
+}

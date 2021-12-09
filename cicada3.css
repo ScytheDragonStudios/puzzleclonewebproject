@@ -1,0 +1,15 @@
+.firstHint {
+    width: 300px;
+    float: left;
+    height: 200px;
+    background: gray;
+    margin: 10px;
+}
+
+.secondHint {
+    width: 300px;
+    float: left;
+    height: 200px;
+    background: gray;
+    margin: 10px;
+}
