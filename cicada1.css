@@ -1,13 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
-    display: flex;
-    width: 100%;
-    background-color: #DE9C51;
-    color: #FFFFFF;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.container a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     justify-content: center;
 }
 
-.item {
-    padding: 8px;
+@media screen and (max-width: 500px) {
+    .container a {
+        float: none;
+        width: 100%;
+    }
 }
 
 h1 {
@@ -24,4 +38,28 @@ h3 {
 
 p {
     text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100px;
+    }
 }
