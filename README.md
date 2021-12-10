@@ -1,5 +1,6 @@
 # puzzleclonewebproject
 A web puzzle clone for CodeLouisville and personal portfolio
+//please note that the first webpage is cicadacry6106.html, so please start there//
 
 This website is a start to a much bigger goal.  To be a software developer has not always been a big dream of mine until recently.  Before this, I wanted to be a game developer, and I studied hard to do that instead.  However, I realized that Web developement and regular software developemnt could be just as fun, so long as I have the time to sit down and focus on them.  This project is a logic puzzle and a point-n-click game called a "Monty Hall" puzzle.  This puzzle is where you have multiple doors and must pick one to be able to pass through.  Only one door is the right one, however, so I have provided clues that you must decipher in order to pick the correct door.
 
