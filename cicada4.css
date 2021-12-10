@@ -77,3 +77,14 @@ img {
 .ninja {
     background-color: darkgray;
 }
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}

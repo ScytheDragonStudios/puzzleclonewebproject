@@ -4,7 +4,7 @@
 
 .container {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(49, 49, 49);
 }
 
 .container a {
@@ -14,7 +14,6 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    justify-content: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -22,22 +21,6 @@
         float: none;
         width: 100%;
     }
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
 }
 
 .column {
@@ -58,8 +41,8 @@ p {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .column {
-        width: 100px;
+        width: 100%;
     }
 }

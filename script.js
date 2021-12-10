@@ -1,20 +1,20 @@
 function selectMode(mode) {
     var color = "ghostwhite";
     var image = "Abom.jpeg";
-    var label = "Light Mode";
+    var label = "Abomination";
 
     if (mode === "dark") {
         color = "darkslateblue";
         image = "Ma'kina.jpeg";
-        label = "Dark Mode";
+        label = "Machine God";
     } else if (mode === "light") {
         color = "orangered";
         image = "Wrathfiel.jpeg";
-        label = "Light Mode";
+        label = "Wolf Demon";
     } else {
         color = "dimgray";
         image = "Abom.jpeg";
-        label = "Ninja Mode";
+        label = "Abomination";
     }
 
     console.log(label);
