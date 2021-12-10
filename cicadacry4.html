@@ -1,11 +1,24 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cicada4.css">
 </head>
-<header>Jinn's Cicada Clone</header>
 <body>
-    <h1 class="rainbow">Congratulations!!</h1>
-    <p>You solved the puzzle!  Enjoy this picture of a maltese-poodle with his tounge out!</p>
+    <div class="congrats">
+        <h1 class="rainbow">Congratulations!!</h1>
+        <p class="paragraph">You solved the puzzle!  Check out some neat artwork by clicking the buttons!</p>
+    </div>
+    <div class="options">
+        <button class="dark" onclick="selectMode('dark');">Machine</button>
+        <button class="light" onclick="selectMode('light')">Rage</button>
+        <button class="ninja" onclick="selectMode('ninja')">Monster</button>
+    </div>
+    <div class="theme" id="theme">
+        <p id="label" class="label">Light Mode</p>
+        <img id="icon" src="Abom.jpeg">
+    </div>
+    <script src="script.js"></script>
 </body>
+</html>
